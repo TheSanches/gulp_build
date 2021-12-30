@@ -12,3 +12,4 @@ Used (import / export), modular system
 + Minification of css and js at the exit
 + Support for older browsers through the use of babel
 + Automatic page reload by using browser-sync
++ Compressing images
