@@ -140,7 +140,7 @@ function serve(cd) {
 
 function watching(cd) {
 
-	watch(paths.styles.allStyles, series(buildStules, reload));
+  watch(paths.styles.allStyles, series(buildStules, reload));
   watch(paths.html.src, series(runHtml, reload));
   watch(paths.scripts.allScripts, series(buildJs, reload));
   watch(paths.img.src, series(runImagesMins, reload));
